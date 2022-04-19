@@ -28,10 +28,10 @@ export default {
             return this.fullName + ' ' + this.lastName;  
         },
         coachContactLink() {
-            return this.$route.path + '/coaches/' + this.id + '/contact';
+            return '/coaches/' + this.id + '/contact';
         },
         coachDetailsLink() {
-            return this.$route.path + '/coaches/' + this.id;
+            return '/coaches/' + this.id;
         }
     }
 }
