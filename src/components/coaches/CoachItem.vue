@@ -25,7 +25,7 @@ export default {
     ],
     computed: {
         fullName() {
-            return this.fullName + ' ' + this.lastName;  
+            return this.firstName + ' ' + this.lastName;  
         },
         coachContactLink() {
             return '/coaches/' + this.id + '/contact';
